@@ -1,0 +1,70 @@
+
+*{
+    background-color: #585a5b;
+    box-sizing: border-box;
+}
+n 
+header {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    margin: 5px auto;
+    width: 80%;
+    background-color: #022610;
+    display:block;
+  }
+
+.hero {
+    display: block;
+    background-color: darkslategray;
+    color: rgb(245, 246, 251);
+    text-align: center;
+    margin-top: 20px;
+    /* Alternative font-family: "Lucida Console", "Monaco", "monospace";*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', "Arial", "sans-serif";
+}
+.Banner,h2 {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(243, 243, 243, 0.402);
+    text-align: center;
+    display: block;
+    color: rgb(3, 3, 3);
+}
+@media screen and (max-width: 795px) {
+    main, 
+    div {
+        flex-direction: column;
+    }
+}
+    .column {
+    width: auto;
+    }
+  
+a, img {
+    margin: auto;
+    width: 450px;
+    height: 100%;;
+}
+.landscape {
+    float: left;
+    width: 20%;
+    padding: -10px;
+    position: relative;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
